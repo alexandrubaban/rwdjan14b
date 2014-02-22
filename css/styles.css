@@ -26,8 +26,34 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFF;
-	background-color: lime;
 }
+
+/* menu begin */
+#nav ul {
+	width: 100%;
+	padding: 0;
+	border: 1px solid #000;
+	background-color: #DA622E;
+	list-style: none;
+}
+
+#nav li {
+	border-bottom: 1px solid #216B9A;
+}
+
+#nav a {
+	display: block;
+	color: #fff;
+	padding: 0.6em 0 0.6em 1.2em;	
+	text-align: left;	
+}
+
+#nav a:hover {
+	color: black;
+}
+/* menu end */
+
+
 
 #content {
 	width: 90%;
@@ -40,37 +66,7 @@ body {
 	background-color: #FFF;
 }
 
-#nav ul {
-	width: 100%;
-	padding: 0;
-	float: left;
-	margin-top: 50px;
-	border: 1px solid #000;
-	background-color: #DA622E;
-	list-style: none;
-}
-#nav li {
-	border-bottom: 1px solid #216B9A;
-}
-#nav a {
-	display: block;
-	color: #fff;
-	padding: 10px 0 10px 20px;	
-	text-align: left;
-	-webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-	
-}
-#nav a:hover {
-	color: black;
-	-webkit-transform: translate(0.5em,0);
-    -moz-transform: translate(0.5em,0);
-    -o-transform: translate(0.5em,0);
-    -ms-transform: translate(0.5em,0);
-    transform: translate(0.5em,0);
-}
+
 a {
 	text-decoration: none;
 	color: #DA622E;
@@ -234,5 +230,7 @@ label {
 
 /* a three column layout is presented on viewports wider than 800 pixels */
 @media all and (min-width: 50em) {
+
+
 
 }
