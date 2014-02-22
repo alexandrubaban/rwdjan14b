@@ -1,3 +1,10 @@
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -5,16 +12,17 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #4B79AE;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	/* font-size: 16px; */
-	font-size: 100%;
-
 }
+
 #wrapper {
-	width: 998px;
+	width: 90%;
+	max-width: 62.40em;
 	padding: 0 20px 20px 20px;
 	margin: 0 auto auto 20px;
+	
+	border: 1px solid lime;
 }
+
 #header {
 	width: 100%;
 	height: 100px;
@@ -23,8 +31,9 @@ body {
 	text-align: center;
 	color: #FFF;
 }
-#main {
-	width: 550px;
+
+#content {
+	width: 90%;
 	min-height: 280px;
 	padding: 20px 20px 30px 20px;
 	position: relative;
@@ -33,8 +42,9 @@ body {
 	margin-left: 17px;
 	background-color: #FFF;
 }
+
 #nav ul {
-	width: 200px;
+	width: 100%;
 	padding: 0;
 	float: left;
 	margin-top: 50px;
@@ -69,7 +79,7 @@ a {
 	color: #DA622E;
 }
 #aside {
-	width: 150px;
+	width: 90%;
 	min-height: 200px;
 	float: right;
 	margin: 50px 0 0 10px;
@@ -216,4 +226,14 @@ label {
 .button:hover {
 	background-color: #eef;
 	cursor: pointer;
+}
+
+/* a two column layout is presented on viewports between 600 and 800 pixels wide */
+@media all and (min-width: 37em) {
+
+}
+
+/* a three column layout is presented on viewports wider than 800 pixels */
+@media all and (min-width: 50em) {
+
 }
