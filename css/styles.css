@@ -1,13 +1,10 @@
-html {
+body {
+	margin: 0;
+	padding: 0;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-body {
-	margin: 0;
-	padding: 0;
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -30,7 +27,7 @@ body {
 	text-shadow: 0px 2px 2px rgba(0, 0, 255, 0.4);	
 }
 
-/* menu begin */
+
 #nav ul {
 	width: 100%;
 	padding: 0;
@@ -53,18 +50,13 @@ body {
 #nav a:hover {
 	color: black;
 }
-/* menu end */
-
 
 
 #content {
-	width: 90%;
-	min-height: 280px;
-	padding: 20px 20px 30px 20px;
-	position: relative;
-	float: left;
-	margin-top: 50px;
-	margin-left: 17px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-top: 2em;
 	background-color: #FFF;
 }
 
@@ -73,14 +65,12 @@ a {
 	text-decoration: none;
 	color: #DA622E;
 }
+
 #aside {
-	width: 90%;
-	min-height: 200px;
-	float: right;
-	margin: 50px 0 0 10px;
-	background-color: white;	
-	padding: 20px 10px;
+	width: 100%;
+	background-color: #FFF;
 }
+
 #aside p {
 	font-size: 85%;
 }
@@ -91,7 +81,7 @@ a {
 	margin-top: 50px;
 }
 #promo {
-	width: 75%;
+	width: 100%;
 	background-color: #999;
 	text-align: center;
 	color: #FFF;
@@ -233,6 +223,8 @@ label {
 /* a three column layout is presented on viewports wider than 800 pixels */
 @media all and (min-width: 50em) {
 
-
+	#wrapper {
+		max-width: 62.40em;
+	}
 
 }
