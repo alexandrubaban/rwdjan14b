@@ -124,7 +124,8 @@ h2, h3 {
 }
 
 dt {	
-	margin: 20px 0 10px;
+	margin: 1.2em 0 0.6em;
+	padding-left: 0.6em;
 }
 
 dd, #rooms li {
