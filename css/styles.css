@@ -120,11 +120,6 @@ h2, h3 {
 	color: white;
 }
 
-.separator {
-	clear: both;
-	margin: 0;
-}
-
 #rooms {
 	list-style: none;
 	padding: 0;
@@ -217,10 +212,9 @@ label {
 }
 
 .button {
-	width: 125px;
-	padding: 7px;
+	width: 6em;
+	padding: 0.5em;
 	font-size: 100%;
-	margin-right: 55px;
 	background-color: whitesmoke;
 }
 
@@ -250,6 +244,51 @@ label {
 
 /* a three column layout is presented on viewports wider than 800 pixels */
 @media all and (min-width: 50em) {
+
+	h1 {
+		font-size: 500%;
+	}
+	
+	#nav {
+		width: 22%;
+		margin: 0;
+		padding: 0;
+		margin-right: 3%;
+		float: left;
+	}
+	
+	#nav a {
+		display: block;
+		color: #fff;
+		padding: 10px 0 10px 20px;	
+		text-align: left;
+		-webkit-transition: 0.5s ease-in-out;
+	    -moz-transition: 0.5s ease-in-out;
+	    -o-transition: 0.5s ease-in-out;
+	    transition: 0.5s ease-in-out;
+		
+	}
+	
+	#nav a:hover {
+		color: black;
+		-webkit-transform: translate(0.5em,0);
+	    -moz-transform: translate(0.5em,0);
+	    -o-transform: translate(0.5em,0);
+	    -ms-transform: translate(0.5em,0);
+	    transform: translate(0.5em,0);
+	}
+	
+	#content {
+		width: 52%;
+		margin-top: 2%;
+		float: left;	
+	}
+	
+	#aside {
+		width: 20%;
+		margin-top: 2%;
+		float: right;
+	}
 
 
 }
