@@ -58,6 +58,10 @@ body {
 	background-color: #FFF;
 }
 
+#aside {
+	margin-bottom: 1em;
+}
+
 p, #aside a {
 	padding: 0 1em;
 }
