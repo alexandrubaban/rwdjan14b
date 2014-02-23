@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Confirmation | Canal View B &amp; B</title>  
   <link href="css/styles.css" rel="stylesheet" />
+  <!--[if lt IE 9 & !IEMobile]>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
 </head>
 <body>
 <div id="wrapper">
@@ -16,7 +19,8 @@
     
   <div id="nav">
     <nav role="navigation">        
-      <ul>
+      <h2 id="menu" onclick="toggleNav()">Menu &gt;&gt;</h2>
+	  <ul id="navlist">
         <li><a href="index.html">Home</a></li>
         <li><a href="rooms.html">Rooms</a></li>
         <li><a href="prices.html">Prices</a></li>
@@ -26,12 +30,16 @@
   </div>
   
   <div id="main">
-    <main role="main">
-      <h2>CONFIRMATION</h2>
+    <section role="main">
+      <h2>Confirmation</h2>
       <p>Thanks for contacting us. You will hear from us within 24 hours.</p>
-    </main>
+    </section>
   </div>
 
 </div>
+
+<script src="js/script.js" type="text/javascript"></script>
+
 </body>
 </html>
+

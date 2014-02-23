@@ -291,15 +291,7 @@ label {
 	h1 {
 		font-size: 425%;
 	}
-	
-	.js #menu {
-		display: none;
-	}
-	
-	.js #nav ul {
-		display: block;
-	}	
-	
+		
 	#nav {
 		width: 22%;
 		margin: 0;
@@ -327,6 +319,14 @@ label {
 	    -o-transform: translate(0.5em,0);
 	    -ms-transform: translate(0.5em,0);
 	    transform: translate(0.5em,0);
+	}
+	
+	.js #menu {
+		display: none;
+	}
+	
+	.js #nav ul {
+		display: block;
 	}
 	
 	#content {
