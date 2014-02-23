@@ -9,8 +9,12 @@ body {
 	background-color: #4B79AE;
 }
 
-#header {
+#header {	
 	background-color: transparent;
+}
+
+h1 {
+	font-size: 500%;
 }
 
 #wrapper {
@@ -59,7 +63,7 @@ body {
 	margin-top: 1em;
 }
 
-#content h2 {
+#content h2, #aside h2 {
 	padding: 0.4em 5%;
 }
 
