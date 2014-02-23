@@ -1,3 +1,13 @@
+@viewport {
+	width: device-width;
+	zoom: 1;
+}
+
+@-ms-viewport {
+	width: device-width;
+	zoom: 1;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -5,7 +15,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-image: url(../img/background.jpg);
+	background-image: url(../img/background600.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #4B79AE;
@@ -60,6 +70,13 @@ body {
 
 #content h2, #aside h2, #aside h3 {
 	text-transform: uppercase;
+}
+
+.content-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0.6em auto;
 }
 
 #aside {
@@ -226,8 +243,13 @@ label {
 /* a two column layout is presented on viewports between 600 and 800 pixels wide */
 @media all and (min-width: 37em) {
 
+	body {
+		background-image: url(../img/background800.jpg);
+		font-size: 110%;
+	}
+	
 	h1 {
-		font-size: 370%;
+		font-size: 340%;
 	}
 	
 	#content {
@@ -246,8 +268,13 @@ label {
 /* a three column layout is presented on viewports wider than 800 pixels */
 @media all and (min-width: 50em) {
 
+	body {
+		background-image: url(../img/background.jpg);
+		font-size: 120%;
+	}
+	
 	h1 {
-		font-size: 500%;
+		font-size: 440%;
 	}
 	
 	#nav {
@@ -292,3 +319,4 @@ label {
 	}
 
 }
+
