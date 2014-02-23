@@ -56,7 +56,6 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	margin-top: 2em;
 	background-color: #FFF;
 }
 
@@ -71,15 +70,11 @@ a {
 	background-color: #FFF;
 }
 
-#aside p {
-	font-size: 85%;
+#promo-container {
+	width: 100%;
+	margin: 1.2em 0;
 }
 
-#promo-container {
-	width: 100%;	
-	float: left;
-	margin-top: 50px;
-}
 #promo {
 	width: 100%;
 	background-color: #999;
@@ -87,29 +82,21 @@ a {
 	color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 15px 0;
 }
-#promo p {
+
+h1, h2, h3 {
 	margin: 0;
 }
 
-h1 {
-	margin-top: 0;
-}
-
-h2, h3 {
-	font-size: 150%;
+h2, h3 {	
 	color: #166BA1;
-	margin: 0;
 }
-h3 {
-	margin: 25px 0 10px;
-}
+
 #promo h2 {
 	color: white;
-	font-size: 120%;
-	margin: 0;
 }
+
+
 
 #rooms {
 	list-style: none;
