@@ -214,12 +214,12 @@ label {
 @media all and (min-width: 37em) {
 
 	#content {
-		width: 61%;
+		width: 62%;
 		float: left;	
 	}
 	
 	#aside {
-		width: 37%;
+		width: 35%;
 		float: right;
 	}
 
