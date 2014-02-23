@@ -211,6 +211,14 @@ label {
 /* a two column layout is presented on viewports between 600 and 800 pixels wide */
 @media all and (min-width: 37em) {
 
+	#content {
+		width: 62%; 	
+	}
+	
+	#aside {
+		width: 38%;
+	}
+
 }
 
 /* a three column layout is presented on viewports wider than 800 pixels */
