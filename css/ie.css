@@ -24,6 +24,10 @@ h1 {
 	margin: 0 auto;
 }
 
+#menu {
+	display: none;
+}
+
 #nav {
 	width: 22%;
 	margin: 0;
