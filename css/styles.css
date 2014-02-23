@@ -25,7 +25,6 @@ body {
 	text-align: center;
 	color: #FFF;
 	text-shadow: 0px 2px 2px rgba(0, 0, 255, 0.4);
-	border: 1px solid lime;	
 }
 
 
@@ -52,7 +51,6 @@ body {
 #nav a:hover {
 	color: black;
 }
-
 
 #content, #aside {
 	width: 100%;	
@@ -223,6 +221,7 @@ label {
 	cursor: pointer;
 }
 
+
 /* a two column layout is presented on viewports between 600 and 800 pixels wide */
 @media all and (min-width: 37em) {
 
@@ -241,6 +240,7 @@ label {
 	}
 
 }
+
 
 /* a three column layout is presented on viewports wider than 800 pixels */
 @media all and (min-width: 50em) {
@@ -289,6 +289,5 @@ label {
 		margin-top: 2%;
 		float: right;
 	}
-
 
 }
