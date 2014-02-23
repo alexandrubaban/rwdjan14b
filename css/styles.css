@@ -101,7 +101,7 @@ h2, h3 {
 }
 
 em {
-	text-decoration: italic;
+	font-style: italic;
 }
 
 #promo h2 {
