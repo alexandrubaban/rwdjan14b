@@ -77,8 +77,10 @@ a {
 }
 
 #promo-container {
+	clear: both;
+	display: block;
 	width: 100%;
-	margin: 1.2em 0;
+	margin: 1.2em 0;	
 }
 
 #promo {
@@ -213,7 +215,7 @@ label {
 
 	#content {
 		width: 60%;
-		float: left; 	
+		float: left;	
 	}
 	
 	#aside {
