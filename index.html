@@ -22,7 +22,7 @@
   
   <div id="nav">
     <nav role="navigation">        
-      <h2 id="menu">Menu &gt;&gt;</h2>
+      <h2 id="menu" onclick="toggleNav()">Menu &gt;&gt;</h2>
 	  <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="rooms.html">Rooms</a></li>
@@ -65,6 +65,15 @@
 
 <script>
 	document.documentElement.className = "js";
+</script>
+
+<script>
+	//var theMenu = document.getElementById("menu");
+	
+	function toggleNav() {
+		alert("Hai.");
+	}
+	
 </script>
 
 </body>

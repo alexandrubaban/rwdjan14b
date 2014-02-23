@@ -45,14 +45,6 @@ body {
 	margin: 0.6em 0;
 }
 
-.js #menu {
-	display: block;
-}
-
-.js #nav ul {
-	display: none;
-}
-
 #nav ul {
 	width: 100%;
 	padding: 0;
@@ -75,6 +67,14 @@ body {
 
 #nav a:hover {
 	color: black;
+}
+
+.js #menu {
+	display: block;
+}
+
+.js #nav ul {
+	display: none;
 }
 
 #content, #aside {
@@ -289,14 +289,14 @@ label {
 	}
 	
 	h1 {
-		font-size: 430%;
+		font-size: 425%;
 	}
 	
 	.js #menu {
 		display: none;
 	}
 	
-	.js #nav {
+	.js #nav ul {
 		display: block;
 	}	
 	
