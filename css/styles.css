@@ -30,7 +30,7 @@ body {
 
 #header {
 	font-size: 67%;
-	margin-top: 0.6em;
+	margin: 0.6em 0;
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFF;
