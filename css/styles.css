@@ -15,7 +15,6 @@ body {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-image: url(../img/background600.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #4B79AE;
@@ -79,7 +78,7 @@ h2, h3 {
 }
 
 .js #nav ul {
-	/* display: none; */
+	display: none;
 }
 
 #content, #aside {
@@ -286,6 +285,7 @@ label {
 	#nav {
 		width: 22%;
 		margin: 0;
+		margin-top: 0.9em;
 		padding: 0;
 		margin-right: 3%;
 		float: left;
@@ -310,10 +310,6 @@ label {
 	    -o-transform: translate(0.5em,0);
 	    -ms-transform: translate(0.5em,0);
 	    transform: translate(0.5em,0);
-	}
-	
-	.js #menu {
-		display: none;
 	}
 	
 	.js #nav ul {
