@@ -1,12 +1,7 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #4B79AE;
 }
 
 #header {	
@@ -22,10 +17,6 @@ h1 {
 	max-width: 62.40em;
 	padding: 0;
 	margin: 0 auto;
-}
-
-#menu {
-	display: none;
 }
 
 #nav {
@@ -60,6 +51,10 @@ h1 {
 	color: black;
 }
 
+.js #nav ul {
+	display: block;
+}
+
 #content {
 	width: 52%;            
 	background-color: #FFF;
@@ -77,4 +72,3 @@ h1 {
 	float: right;
 	background-color: #FFF;
 }
-
