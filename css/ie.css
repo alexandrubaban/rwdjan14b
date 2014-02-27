@@ -19,6 +19,10 @@ h1 {
 	margin: 0 auto;
 }
 
+.js #m {
+	display: none;
+}
+
 #nav {
 	width: 22%;
 	margin: 0;
@@ -28,7 +32,6 @@ h1 {
 }
 
 #nav ul {
-	width: 100%;
 	padding: 0;
 	background-color: #DA622E;
 	list-style: none;

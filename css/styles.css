@@ -53,6 +53,19 @@ h2, h3 {
 	margin: 0;
 }
 
+#m {
+	position: relative;
+	float: right;
+	top: -2.0em;
+	left: -0.6em;
+	cursor: pointer;
+	display: none;
+}
+
+.js #m {
+	display: block;
+}
+
 #nav ul {
 	padding: 0;
 	background-color: #DA622E;
@@ -314,6 +327,10 @@ label {
 	
 	.js #nav ul {
 		display: block;
+	}
+
+	.js #m {
+		display: none;
 	}
 	
 	#content {
