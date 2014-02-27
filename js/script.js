@@ -39,7 +39,7 @@ eventUtility.addEvent(
 
 // show, hide navigation 
 function toggleNav() {
-	var theNav = document.getElementById("navfull");
+	var theNav = document.getElementById("navlist");
 	if ((theNav.style.display === "none") || (theNav.style.display == "")) {
 		theNav.style.display = "block";
 	} else {
